@@ -1,0 +1,236 @@
+/* Container do header */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+}
+
+/* Alinhar navegação */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+nav a {
+    text-decoration: none;
+    background-color: #f06;
+    color: white;
+    font-weight: bold;
+    padding: 10px 18px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    font-size: 18px; /* aumenta o tamanho da fonte */
+}
+
+nav a:hover {
+    background-color: #c04;
+}
+
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+/* Produtos */
+#produtos {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.produtos-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.produto {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 280px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    text-align: center;
+}
+
+.produto img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.produto a button {
+    background-color: #f06;
+    color: white;
+    padding: 12px 25px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.produto a button:hover {
+    background-color: #c04;
+}
+
+
+/* Sobre e contato */
+#sobre {
+    background-color: #fff8f8;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.sobre-container {
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.8;
+    font-size: 18px;
+    color: #333;
+}
+
+#sobre h2 {
+    color: #b9486b;
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+#contato {
+    background-color: #fdf1f5;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.contato-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#contato h2 {
+    color: #b9486b;
+    margin-bottom: 15px;
+    font-size: 28px;
+}
+
+#contato p {
+    font-size: 16px;
+    color: #444;
+    margin-bottom: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input, textarea {
+    padding: 14px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 100%;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+form button {
+    background-color: #f06;
+    color: white;
+    padding: 14px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #c04;
+}
+
+
+/* Banner */
+#banner {
+    text-align: center;
+    padding: 50px 20px; /* aumentou o padding vertical */
+    background-color: #a99681;
+    color: white;
+}
+
+.banner-conteudo {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.banner-img {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+
+/* Botão do banner */
+.botao-banner {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background-color: #f06;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.botao-banner:hover {
+    background-color: #c04;
+}
+
+/* Banner 2 */
+#banner2 {
+    background-color: #ffe6ee;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#banner2 .banner-conteudo img {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Imagens informativas abaixo do banner */
+#info-imagens {
+    padding: 60px 20px;
+    background-color: #fff8f8;
+    text-align: center;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.info-container img {
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
